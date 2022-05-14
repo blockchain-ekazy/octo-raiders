@@ -1,0 +1,89 @@
+.Header {
+  background-image: url(./Imgs/bgtop.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.HeadImg {
+  max-width: 800px;
+}
+.nav-link {
+  cursor: pointer !important;
+}
+.navbar {
+  background-color: #329dd4;
+  /* font-family:; */
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 900;
+}
+.ico {
+  color: white;
+  font-size: 30px;
+}
+/* 
+@media only screen and (max-width: 600px) {
+    .HeadImg {
+      
+    padding-right: 0px;
+
+    padding-top: 0px;
+    }
+  }  */
+
+.MintImg {
+  max-width: 250px;
+  width: 100%;
+}
+.DivB {
+  background-image: url(./Imgs/div2Bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.DivB .row {
+  min-height: 100vh;
+}
+
+.RoadMap {
+  background-image: url(./Imgs/RoadMapBg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Team {
+  background-image: url(./Imgs/TeamBg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.TeamCol {
+  /* height: 400px; */
+  /* max-width: 100% ; */
+}
+/* .TeamCol img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border: 12px solid gray;
+    border-radius: 100%;
+    background-color: #5e5f89;
+    max-width: 100%;
+} */
+.count {
+  background: none;
+}
+script + iframe {
+  display: none;
+}
+.MintImg {
+  cursor: pointer;
+}
